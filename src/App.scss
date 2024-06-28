@@ -1,0 +1,77 @@
+
+body{
+  background-color: rgb(251, 244, 244);
+}
+.heading-main{
+  >.heading-secondary{
+    >.heading_1{
+      text-align: center;
+      
+    }
+  }
+
+  >form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    >.textinput{
+      background-color: rgb(255, 254, 254);
+    }
+  }
+
+  >.PieChat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 2px 0px;
+  }
+  >.emi{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    padding: 10px 0px 2px 0px;
+    >h3{
+      background-color: rgb(219, 219, 219);
+      border-radius: 2px;
+      padding: 6px;
+      border: 1px solid black
+    }
+    >.emichange{
+      background-color: rgb(188, 243, 184);
+    }
+    >.amtchange{
+      background-color: rgb(248, 183, 170);
+    }
+    >.intchange{
+      background-color: rgb(188, 223, 239);
+    }
+  }
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+}
+
+@media screen and (max-width: 510px){
+  .heading-main{
+    >form{
+      flex-direction: column;
+      gap: 10px;
+    }
+    >.emi{
+      flex-direction: column;
+      gap: 4px;
+    }
+  }
+}
+
