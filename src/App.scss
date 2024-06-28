@@ -52,12 +52,11 @@ body{
 }
 
 footer{
-  left: 0;
-  width: 100%;
+  margin-left: 3px;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-
+  height: 10vh;
+  align-items:flex-end;
+  justify-content: center;
 }
 
 @media screen and (max-width: 510px){
